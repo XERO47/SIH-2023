@@ -1,0 +1,245 @@
+{
+    "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.4",
+    "serialNumber": "urn:uuid:7b12a0b5-d84d-4038-a05f-4b4fc5c85e7c",
+    "version": 1,
+    "metadata": {
+        "timestamp": "2023-12-20T12:36:36.523301+00:00",
+        "tools": [
+            {
+                "vendor": "CycloneDX",
+                "name": "cyclonedx-python-lib",
+                "version": "3.1.5",
+                "externalReferences": [
+                    {
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/actions",
+                        "type": "build-system"
+                    },
+                    {
+                        "url": "https://pypi.org/project/cyclonedx-python-lib/",
+                        "type": "distribution"
+                    },
+                    {
+                        "url": "https://cyclonedx.github.io/cyclonedx-python-lib/",
+                        "type": "documentation"
+                    },
+                    {
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/issues",
+                        "type": "issue-tracker"
+                    },
+                    {
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/LICENSE",
+                        "type": "license"
+                    },
+                    {
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib/blob/main/CHANGELOG.md",
+                        "type": "release-notes"
+                    },
+                    {
+                        "url": "https://github.com/CycloneDX/cyclonedx-python-lib",
+                        "type": "vcs"
+                    },
+                    {
+                        "url": "https://cyclonedx.org",
+                        "type": "website"
+                    }
+                ]
+            }
+        ]
+    },
+    "components": [
+        {
+            "type": "application",
+            "bom-ref": "ce103f08-1aad-4604-beee-8be83f3562d0",
+            "name": "@apollo/client",
+            "version": "^3.1.3"
+        },
+        {
+            "type": "application",
+            "bom-ref": "599d326c-e76e-4eed-beaf-d0cc75e803d6",
+            "name": "@hapi/iron",
+            "version": "^6.0.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "5ec1385f-e2bc-4c51-8a4d-f676204b1ddd",
+            "name": "apollo-server-micro",
+            "version": "^2.15.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "d82a12c8-a50d-47f2-be9c-004eef955787",
+            "name": "bcrypt",
+            "version": "^5.0.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "3f2b5e86-3c02-4e06-8362-e338fd8fd522",
+            "name": "cookie",
+            "version": "^0.4.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "ce192cb2-8285-4e98-aa2b-c72d910833d9",
+            "name": "graphql",
+            "version": "^15.3.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "409070d9-e750-4c4e-a624-72c1b06e178e",
+            "name": "graphql-tools",
+            "version": "^6.0.12"
+        },
+        {
+            "type": "application",
+            "bom-ref": "589ffd8b-ce9c-4059-b152-47062cd39bac",
+            "name": "knex",
+            "version": "^0.21.2"
+        },
+        {
+            "type": "application",
+            "bom-ref": "56b48562-a2e8-4d6f-8daf-fb9aa99a6d14",
+            "name": "micro-cors",
+            "version": "^0.1.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "73b3a80c-19c4-4fc7-bb74-0ab995ce7add",
+            "name": "mysql",
+            "version": "^2.18.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "316da546-96b4-44c9-98fc-acbeb980212b",
+            "name": "next",
+            "version": "^12.1.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "eabac003-a6f4-4f81-a506-054fba1012f6",
+            "name": "react",
+            "version": "^17.0.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "74e24288-f604-4da4-b549-b931e4f7cb87",
+            "name": "react-dom",
+            "version": "^17.0.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "dc2ee642-fefb-4f5d-a2d3-6ef7595de0c1",
+            "name": "react-icons",
+            "version": "^3.10.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "5e66340a-0199-46d2-9754-7b4fca7feecd",
+            "name": "react-loader-spinner",
+            "version": "^4.0.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "b8867bcf-7a36-4124-8317-d9047171167f",
+            "name": "react-star-ratings",
+            "version": "^2.3.0"
+        },
+        {
+            "type": "application",
+            "bom-ref": "7b4348fd-63d8-43df-8ac4-8c9a223d3caf",
+            "name": "sqlite3",
+            "version": "^5.0.3"
+        },
+        {
+            "type": "application",
+            "bom-ref": "0abab1f5-5baf-4ffa-bbe2-59286e97c979",
+            "name": "uuidv4",
+            "version": "^6.1.1"
+        },
+        {
+            "type": "application",
+            "bom-ref": "ef2a60df-fae6-45bf-a899-f7595ef67a1b",
+            "name": "validator",
+            "version": "^13.7.0"
+        }
+    ],
+    "dependencies": [
+        {
+            "ref": "ce103f08-1aad-4604-beee-8be83f3562d0",
+            "dependsOn": []
+        },
+        {
+            "ref": "599d326c-e76e-4eed-beaf-d0cc75e803d6",
+            "dependsOn": []
+        },
+        {
+            "ref": "5ec1385f-e2bc-4c51-8a4d-f676204b1ddd",
+            "dependsOn": []
+        },
+        {
+            "ref": "d82a12c8-a50d-47f2-be9c-004eef955787",
+            "dependsOn": []
+        },
+        {
+            "ref": "3f2b5e86-3c02-4e06-8362-e338fd8fd522",
+            "dependsOn": []
+        },
+        {
+            "ref": "ce192cb2-8285-4e98-aa2b-c72d910833d9",
+            "dependsOn": []
+        },
+        {
+            "ref": "409070d9-e750-4c4e-a624-72c1b06e178e",
+            "dependsOn": []
+        },
+        {
+            "ref": "589ffd8b-ce9c-4059-b152-47062cd39bac",
+            "dependsOn": []
+        },
+        {
+            "ref": "56b48562-a2e8-4d6f-8daf-fb9aa99a6d14",
+            "dependsOn": []
+        },
+        {
+            "ref": "73b3a80c-19c4-4fc7-bb74-0ab995ce7add",
+            "dependsOn": []
+        },
+        {
+            "ref": "316da546-96b4-44c9-98fc-acbeb980212b",
+            "dependsOn": []
+        },
+        {
+            "ref": "eabac003-a6f4-4f81-a506-054fba1012f6",
+            "dependsOn": []
+        },
+        {
+            "ref": "74e24288-f604-4da4-b549-b931e4f7cb87",
+            "dependsOn": []
+        },
+        {
+            "ref": "dc2ee642-fefb-4f5d-a2d3-6ef7595de0c1",
+            "dependsOn": []
+        },
+        {
+            "ref": "5e66340a-0199-46d2-9754-7b4fca7feecd",
+            "dependsOn": []
+        },
+        {
+            "ref": "b8867bcf-7a36-4124-8317-d9047171167f",
+            "dependsOn": []
+        },
+        {
+            "ref": "7b4348fd-63d8-43df-8ac4-8c9a223d3caf",
+            "dependsOn": []
+        },
+        {
+            "ref": "0abab1f5-5baf-4ffa-bbe2-59286e97c979",
+            "dependsOn": []
+        },
+        {
+            "ref": "ef2a60df-fae6-45bf-a899-f7595ef67a1b",
+            "dependsOn": []
+        }
+    ]
+}
